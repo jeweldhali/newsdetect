@@ -9,6 +9,8 @@ import os
 import newspaper
 from newspaper import Article
 import urllib
+import nltk
+nltk.download('punkt')
 
 app = Flask(__name__)
 CORS(app)
